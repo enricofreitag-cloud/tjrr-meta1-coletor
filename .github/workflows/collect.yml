@@ -1,0 +1,40 @@
+name: Publicar indicadores Meta 1
+on:
+  schedule:
+    # UTC: 04:15 / 16:15 = 00:15 / 12:15 em Boa Vista (UTC-4).
+    - cron: '15 4,16 * * *'
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: meta1-publication
+  cancel-in-progress: false
+jobs:
+  collect:
+    # Fail closed if the repository ever becomes private.
+    if: github.event.repository.visibility == 'public' && (github.event_name == 'workflow_dispatch' || vars.ENABLE_SCHEDULE == 'true')
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          ref: main
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: '24'
+      - name: Testar regras de publicação
+        run: node --test tests/*.test.cjs
+      - name: Coletar e validar as quatro unidades
+        run: node collect.cjs
+      - name: Publicar somente o JSON validado
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- data/latest.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Atualizar indicadores públicos Meta 1'
+            git push origin HEAD:main
+          fi
