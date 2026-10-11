@@ -13,6 +13,8 @@ sistema institucional. A única saída publicada é `data/latest.json`.
 
 GitHub Actions: repositório **público**, runner padrão `ubuntu-24.04`, duas vezes
 por dia: 00h15 e 12h15 de Boa Vista (04h15 e 16h15 UTC). Execução manual disponível.
+Durante a preparação, agendamento fica pausado: somente execuções manuais rodam.
+Após aprovação, definir a variável de repositório `ENABLE_SCHEDULE` como `true`.
 Timeout de 45 segundos por chamada; até duas sessões de quatro minutos, com
 intervalo de dez segundos. Limite global de dez minutos e execução serializada.
 Falha não substitui o último snapshot válido. Data da fonte e da coleta são
