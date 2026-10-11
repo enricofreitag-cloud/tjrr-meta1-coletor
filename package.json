@@ -1,0 +1,8 @@
+{
+  "name": "tjrr-meta1-coletor",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Coleta e publicação de indicadores públicos agregados da Meta 1",
+  "engines": { "node": ">=24" },
+  "scripts": { "test": "node --test tests/*.test.cjs", "collect": "node collect.cjs" }
+}
