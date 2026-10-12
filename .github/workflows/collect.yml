@@ -14,7 +14,7 @@ jobs:
     # Fail closed if the repository ever becomes private.
     if: github.event.repository.visibility == 'public' && (github.event_name == 'workflow_dispatch' || vars.ENABLE_SCHEDULE == 'true')
     runs-on: ubuntu-24.04
-    timeout-minutes: 10
+    timeout-minutes: 15
     permissions:
       contents: write
     steps:
@@ -26,15 +26,23 @@ jobs:
           node-version: '24'
           package-manager-cache: false
       - name: Testar regras de publicação
-        run: node --test tests/*.test.cjs
+        run: node --test tests/*.test.cjs monthly-auto.test.cjs
       - name: Coletar e validar as quatro unidades
         run: node collect.cjs
+      - name: Incorporar meses completos e recalcular projeção
+        id: monthly
+        continue-on-error: true
+        timeout-minutes: 2
+        run: node collect-monthly.cjs
+      - name: Registrar falha da atualização mensal
+        if: steps.monthly.outcome == 'failure'
+        run: echo "::warning::Projeção mensal preservada por falha de coleta ou validação"
       - name: Publicar somente o JSON validado
         shell: bash
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add -- data/latest.json
+          git add -- data/latest.json data/forecast.json
           if ! git diff --cached --quiet; then
             git commit -m 'Atualizar indicadores públicos Meta 1'
             git push origin HEAD:main
