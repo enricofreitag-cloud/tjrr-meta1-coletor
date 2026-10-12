@@ -4,5 +4,5 @@
   "version": "1.0.0",
   "description": "Coleta e publicação de indicadores públicos agregados da Meta 1",
   "engines": { "node": ">=24" },
-  "scripts": { "test": "node --test tests/*.test.cjs", "collect": "node collect.cjs" }
+  "scripts": { "test": "node --test tests/*.test.cjs monthly-auto.test.cjs", "collect": "node collect.cjs", "collect:monthly": "node collect-monthly.cjs" }
 }
