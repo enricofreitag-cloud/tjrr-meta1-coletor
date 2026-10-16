@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "year": 2026,
-  "collectedAt": "2026-10-15T16:44:17.077Z",
-  "sourceUpdatedAt": "15/10/2026 11:28:55",
+  "collectedAt": "2026-10-16T04:42:36.542Z",
+  "sourceUpdatedAt": "15/10/2026 16:18:06",
   "sourceUrl": "https://estatistica.tjrr.jus.br/painel/meta-1",
   "units": [
     {
@@ -64,10 +64,10 @@
       "name": "2ª VARA CÍVEL",
       "distributed": 1923,
       "entries": 121,
-      "exits": 132,
-      "judged": 1440,
-      "fulfillment": 0.7531380753138075,
-      "necessary": 472,
+      "exits": 133,
+      "judged": 1441,
+      "fulfillment": 0.7540554683411826,
+      "necessary": 470,
       "monthly": [
         {
           "period": "2025-12",
@@ -111,7 +111,7 @@
         },
         {
           "period": "2026-10",
-          "fulfillment": 0.7531380753138075
+          "fulfillment": 0.7540554683411826
         }
       ]
     },
@@ -175,9 +175,9 @@
       "distributed": 1778,
       "entries": 74,
       "exits": 122,
-      "judged": 1401,
-      "fulfillment": 0.8098265895953757,
-      "necessary": 329,
+      "judged": 1404,
+      "fulfillment": 0.8115606936416185,
+      "necessary": 326,
       "monthly": [
         {
           "period": "2025-12",
@@ -221,7 +221,7 @@
         },
         {
           "period": "2026-10",
-          "fulfillment": 0.8098265895953757
+          "fulfillment": 0.8115606936416185
         }
       ]
     }
