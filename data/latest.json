@@ -1,18 +1,18 @@
 {
   "schemaVersion": 1,
   "year": 2026,
-  "collectedAt": "2026-10-22T16:43:52.684Z",
-  "sourceUpdatedAt": "22/10/2026 11:27:07",
+  "collectedAt": "2026-10-23T04:41:33.944Z",
+  "sourceUpdatedAt": "22/10/2026 17:19:22",
   "sourceUrl": "https://estatistica.tjrr.jus.br/painel/meta-1",
   "units": [
     {
       "name": "1ª VARA CÍVEL",
       "distributed": 1889,
-      "entries": 114,
+      "entries": 113,
       "exits": 133,
       "judged": 1286,
-      "fulfillment": 0.6877005347593583,
-      "necessary": 584,
+      "fulfillment": 0.6880684858212948,
+      "necessary": 583,
       "monthly": [
         {
           "period": "2025-12",
@@ -24,39 +24,39 @@
         },
         {
           "period": "2026-02",
-          "fulfillment": 0.6078947368421053
+          "fulfillment": 0.6094986807387863
         },
         {
           "period": "2026-03",
-          "fulfillment": 0.5958188153310104
+          "fulfillment": 0.5968586387434555
         },
         {
           "period": "2026-04",
-          "fulfillment": 0.6084010840108401
+          "fulfillment": 0.6092265943012212
         },
         {
           "period": "2026-05",
-          "fulfillment": 0.6106194690265486
+          "fulfillment": 0.6112956810631229
         },
         {
           "period": "2026-06",
-          "fulfillment": 0.5535553555355536
+          "fulfillment": 0.5540540540540541
         },
         {
           "period": "2026-07",
-          "fulfillment": 0.614760147601476
+          "fulfillment": 0.6152141802067946
         },
         {
           "period": "2026-08",
-          "fulfillment": 0.6709346991037132
+          "fulfillment": 0.6713645099295323
         },
         {
           "period": "2026-09",
-          "fulfillment": 0.6814261069580219
+          "fulfillment": 0.6818181818181818
         },
         {
           "period": "2026-10",
-          "fulfillment": 0.6877005347593583
+          "fulfillment": 0.6880684858212948
         }
       ]
     },
@@ -65,9 +65,9 @@
       "distributed": 1983,
       "entries": 123,
       "exits": 136,
-      "judged": 1537,
-      "fulfillment": 0.7802030456852792,
-      "necessary": 433,
+      "judged": 1540,
+      "fulfillment": 0.7817258883248731,
+      "necessary": 430,
       "monthly": [
         {
           "period": "2025-12",
@@ -111,7 +111,7 @@
         },
         {
           "period": "2026-10",
-          "fulfillment": 0.7802030456852792
+          "fulfillment": 0.7817258883248731
         }
       ]
     },
@@ -120,9 +120,9 @@
       "distributed": 1958,
       "entries": 29,
       "exits": 111,
-      "judged": 1778,
-      "fulfillment": 0.9477611940298507,
-      "necessary": 98,
+      "judged": 1785,
+      "fulfillment": 0.9514925373134329,
+      "necessary": 91,
       "monthly": [
         {
           "period": "2025-12",
@@ -166,18 +166,18 @@
         },
         {
           "period": "2026-10",
-          "fulfillment": 0.9477611940298507
+          "fulfillment": 0.9514925373134329
         }
       ]
     },
     {
       "name": "4ª VARA CÍVEL",
-      "distributed": 1827,
-      "entries": 72,
-      "exits": 122,
-      "judged": 1439,
-      "fulfillment": 0.8097917839054586,
-      "necessary": 338,
+      "distributed": 1826,
+      "entries": 73,
+      "exits": 123,
+      "judged": 1452,
+      "fulfillment": 0.8175675675675675,
+      "necessary": 324,
       "monthly": [
         {
           "period": "2025-12",
@@ -221,7 +221,7 @@
         },
         {
           "period": "2026-10",
-          "fulfillment": 0.8097917839054586
+          "fulfillment": 0.8175675675675675
         }
       ]
     }
