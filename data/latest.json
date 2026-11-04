@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "year": 2026,
-  "collectedAt": "2026-11-04T15:29:16.156Z",
-  "sourceUpdatedAt": "04/11/2026 10:30:53",
+  "collectedAt": "2026-11-04T17:02:21.413Z",
+  "sourceUpdatedAt": "04/11/2026 12:25:26",
   "sourceUrl": "https://estatistica.tjrr.jus.br/painel/meta-1",
   "units": [
     {
@@ -128,9 +128,9 @@
       "distributed": 2034,
       "entries": 26,
       "exits": 125,
-      "judged": 1860,
-      "fulfillment": 0.9612403100775194,
-      "necessary": 75,
+      "judged": 1861,
+      "fulfillment": 0.9617571059431524,
+      "necessary": 74,
       "monthly": [
         {
           "period": "2025-12",
@@ -178,7 +178,7 @@
         },
         {
           "period": "2026-11",
-          "fulfillment": 0.9612403100775194
+          "fulfillment": 0.9617571059431524
         }
       ]
     },
