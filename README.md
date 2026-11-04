@@ -12,6 +12,11 @@ por vez. Não contém processos, dados pessoais, credenciais Google ou código d
 sistema institucional. Publica `data/latest.json` (cumprimento corrente) e
 `data/forecast.json` (série mensal e projeção por vara).
 
+A evolução do cumprimento usa diretamente a medida oficial **GC Acumulado**
+em cubo temporário da sessão, com ordenação cronológica. Não depende da medida
+selecionada no gráfico mensal do TJRR. Confere dimensão, medida, completude e
+o último acumulado contra o KPI geral; divergências interrompem a publicação.
+
 GitHub Actions: repositório **público**, runner padrão `ubuntu-24.04`, duas vezes
 por dia: 00h15 e 12h15 de Boa Vista (04h15 e 16h15 UTC). Execução manual disponível.
 Agendamento autorizado e ativo com `ENABLE_SCHEDULE=true`.
