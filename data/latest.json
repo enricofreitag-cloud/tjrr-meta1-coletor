@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "year": 2026,
-  "collectedAt": "2026-11-09T05:14:25.502Z",
-  "sourceUpdatedAt": "08/11/2026 02:45:01",
+  "collectedAt": "2026-11-09T17:17:43.977Z",
+  "sourceUpdatedAt": "09/11/2026 12:22:48",
   "sourceUrl": "https://estatistica.tjrr.jus.br/painel/meta-1",
   "units": [
     {
@@ -10,9 +10,9 @@
       "distributed": 1982,
       "entries": 113,
       "exits": 133,
-      "judged": 1353,
-      "fulfillment": 0.6896024464831805,
-      "necessary": 609,
+      "judged": 1362,
+      "fulfillment": 0.6941896024464832,
+      "necessary": 600,
       "monthly": [
         {
           "period": "2025-12",
@@ -20,47 +20,47 @@
         },
         {
           "period": "2026-01",
-          "fulfillment": 0.7272727272727273
+          "fulfillment": 0.7228915662650602
         },
         {
           "period": "2026-02",
-          "fulfillment": 0.616
+          "fulfillment": 0.6143617021276596
         },
         {
           "period": "2026-03",
-          "fulfillment": 0.6010544815465729
+          "fulfillment": 0.6
         },
         {
           "period": "2026-04",
-          "fulfillment": 0.6103542234332425
+          "fulfillment": 0.6108843537414966
         },
         {
           "period": "2026-05",
-          "fulfillment": 0.6122222222222222
+          "fulfillment": 0.6126526082130965
         },
         {
           "period": "2026-06",
-          "fulfillment": 0.5546522131887985
+          "fulfillment": 0.5550541516245487
         },
         {
           "period": "2026-07",
-          "fulfillment": 0.6153846153846154
+          "fulfillment": 0.6156688839615669
         },
         {
           "period": "2026-08",
-          "fulfillment": 0.6715843489416292
+          "fulfillment": 0.6722257857601026
         },
         {
           "period": "2026-09",
-          "fulfillment": 0.6824207492795389
+          "fulfillment": 0.6828143021914648
         },
         {
           "period": "2026-10",
-          "fulfillment": 0.6999482669425763
+          "fulfillment": 0.7003105590062112
         },
         {
           "period": "2026-11",
-          "fulfillment": 0.6896024464831805
+          "fulfillment": 0.6941896024464832
         }
       ]
     },
@@ -115,7 +115,7 @@
         },
         {
           "period": "2026-10",
-          "fulfillment": 0.7650809220205983
+          "fulfillment": 0.7654563297350343
         },
         {
           "period": "2026-11",
@@ -125,12 +125,12 @@
     },
     {
       "name": "3ª VARA CÍVEL",
-      "distributed": 2064,
+      "distributed": 2065,
       "entries": 25,
       "exits": 125,
-      "judged": 1891,
-      "fulfillment": 0.9628309572301426,
-      "necessary": 73,
+      "judged": 1912,
+      "fulfillment": 0.973027989821883,
+      "necessary": 53,
       "monthly": [
         {
           "period": "2025-12",
@@ -138,58 +138,58 @@
         },
         {
           "period": "2026-01",
-          "fulfillment": 0.7371794871794872
+          "fulfillment": 0.732484076433121
         },
         {
           "period": "2026-02",
-          "fulfillment": 1.0063291139240507
+          "fulfillment": 1.003154574132492
         },
         {
           "period": "2026-03",
-          "fulfillment": 0.982791586998088
+          "fulfillment": 0.9809160305343512
         },
         {
           "period": "2026-04",
-          "fulfillment": 1.0188133140376265
+          "fulfillment": 1.0173410404624277
         },
         {
           "period": "2026-05",
-          "fulfillment": 0.9941792782305006
+          "fulfillment": 0.9941860465116279
         },
         {
           "period": "2026-06",
-          "fulfillment": 1.011288805268109
+          "fulfillment": 1.0112781954887218
         },
         {
           "period": "2026-07",
-          "fulfillment": 0.9202363367799113
+          "fulfillment": 0.9203539823008849
         },
         {
           "period": "2026-08",
-          "fulfillment": 0.8981958762886598
+          "fulfillment": 0.8983268983268984
         },
         {
           "period": "2026-09",
-          "fulfillment": 0.9065902578796562
+          "fulfillment": 0.9066971951917573
         },
         {
           "period": "2026-10",
-          "fulfillment": 0.9569948186528497
+          "fulfillment": 0.9565442317640973
         },
         {
           "period": "2026-11",
-          "fulfillment": 0.9628309572301426
+          "fulfillment": 0.973027989821883
         }
       ]
     },
     {
       "name": "4ª VARA CÍVEL",
-      "distributed": 1934,
-      "entries": 69,
+      "distributed": 1935,
+      "entries": 68,
       "exits": 135,
-      "judged": 1520,
-      "fulfillment": 0.8137044967880086,
-      "necessary": 348,
+      "judged": 1521,
+      "fulfillment": 0.8142398286937902,
+      "necessary": 347,
       "monthly": [
         {
           "period": "2025-12",
@@ -197,47 +197,47 @@
         },
         {
           "period": "2026-01",
-          "fulfillment": 0.3254437869822485
+          "fulfillment": 0.3273809523809524
         },
         {
           "period": "2026-02",
-          "fulfillment": 0.44776119402985076
+          "fulfillment": 0.45209580838323354
         },
         {
           "period": "2026-03",
-          "fulfillment": 0.5679702048417132
+          "fulfillment": 0.5708955223880597
         },
         {
           "period": "2026-04",
-          "fulfillment": 0.6991279069767442
+          "fulfillment": 0.7016011644832606
         },
         {
           "period": "2026-05",
-          "fulfillment": 0.8817330210772834
+          "fulfillment": 0.8839390386869871
         },
         {
           "period": "2026-06",
-          "fulfillment": 0.8366571699905033
+          "fulfillment": 0.8384030418250951
         },
         {
           "period": "2026-07",
-          "fulfillment": 0.7804511278195488
+          "fulfillment": 0.781790820165538
         },
         {
           "period": "2026-08",
-          "fulfillment": 0.7901315789473684
+          "fulfillment": 0.7913100724160632
         },
         {
           "period": "2026-09",
-          "fulfillment": 0.7902935889754344
+          "fulfillment": 0.7913669064748201
         },
         {
           "period": "2026-10",
-          "fulfillment": 0.8015184381778742
+          "fulfillment": 0.8024959305480195
         },
         {
           "period": "2026-11",
-          "fulfillment": 0.8137044967880086
+          "fulfillment": 0.8142398286937902
         }
       ]
     }
