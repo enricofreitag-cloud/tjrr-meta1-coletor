@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "year": 2026,
-  "collectedAt": "2026-11-19T13:02:12.027Z",
-  "sourceUpdatedAt": "19/11/2026 03:00:38",
+  "collectedAt": "2026-11-19T23:03:00.876Z",
+  "sourceUpdatedAt": "19/11/2026 17:21:48",
   "sourceUrl": "https://estatistica.tjrr.jus.br/painel/meta-1",
   "units": [
     {
@@ -66,12 +66,12 @@
     },
     {
       "name": "2ª VARA CÍVEL",
-      "distributed": 2156,
+      "distributed": 2155,
       "entries": 121,
-      "exits": 152,
-      "judged": 1798,
-      "fulfillment": 0.8461176470588235,
-      "necessary": 327,
+      "exits": 160,
+      "judged": 1812,
+      "fulfillment": 0.8563327032136105,
+      "necessary": 304,
       "monthly": [
         {
           "period": "2025-12",
@@ -95,31 +95,31 @@
         },
         {
           "period": "2026-05",
-          "fulfillment": 0.7436743674367436
+          "fulfillment": 0.7425742574257426
         },
         {
           "period": "2026-06",
-          "fulfillment": 0.7201793721973094
+          "fulfillment": 0.7192825112107624
         },
         {
           "period": "2026-07",
-          "fulfillment": 0.6418338108882522
+          "fulfillment": 0.6411174785100286
         },
         {
           "period": "2026-08",
-          "fulfillment": 0.7356466876971609
+          "fulfillment": 0.7350157728706624
         },
         {
           "period": "2026-09",
-          "fulfillment": 0.753025302530253
+          "fulfillment": 0.7524752475247525
         },
         {
           "period": "2026-10",
-          "fulfillment": 0.7677165354330708
+          "fulfillment": 0.7676021664204825
         },
         {
           "period": "2026-11",
-          "fulfillment": 0.8461176470588235
+          "fulfillment": 0.8563327032136105
         }
       ]
     },
@@ -128,9 +128,9 @@
       "distributed": 2155,
       "entries": 24,
       "exits": 125,
-      "judged": 1944,
-      "fulfillment": 0.9464459591041869,
-      "necessary": 110,
+      "judged": 1951,
+      "fulfillment": 0.9498539435248295,
+      "necessary": 103,
       "monthly": [
         {
           "period": "2025-12",
@@ -142,43 +142,43 @@
         },
         {
           "period": "2026-02",
-          "fulfillment": 1.003154574132492
+          "fulfillment": 1
         },
         {
           "period": "2026-03",
-          "fulfillment": 0.9809160305343512
+          "fulfillment": 0.9790076335877863
         },
         {
           "period": "2026-04",
-          "fulfillment": 1.0173410404624277
+          "fulfillment": 1.0158959537572254
         },
         {
           "period": "2026-05",
-          "fulfillment": 0.9953434225844005
+          "fulfillment": 0.9941792782305006
         },
         {
           "period": "2026-06",
-          "fulfillment": 1.0131826741996233
+          "fulfillment": 1.012241054613936
         },
         {
           "period": "2026-07",
-          "fulfillment": 0.9230769230769231
+          "fulfillment": 0.9223372781065089
         },
         {
           "period": "2026-08",
-          "fulfillment": 0.9023917259211377
+          "fulfillment": 0.9017453135100194
         },
         {
           "period": "2026-09",
-          "fulfillment": 0.9103448275862069
+          "fulfillment": 0.9097701149425287
         },
         {
           "period": "2026-10",
-          "fulfillment": 0.9590248962655602
+          "fulfillment": 0.9585062240663901
         },
         {
           "period": "2026-11",
-          "fulfillment": 0.9464459591041869
+          "fulfillment": 0.9498539435248295
         }
       ]
     },
@@ -187,9 +187,9 @@
       "distributed": 2021,
       "entries": 69,
       "exits": 141,
-      "judged": 1555,
-      "fulfillment": 0.7978450487429452,
-      "necessary": 394,
+      "judged": 1558,
+      "fulfillment": 0.7993842996408415,
+      "necessary": 391,
       "monthly": [
         {
           "period": "2025-12",
@@ -237,7 +237,7 @@
         },
         {
           "period": "2026-11",
-          "fulfillment": 0.7978450487429452
+          "fulfillment": 0.7993842996408415
         }
       ]
     }
