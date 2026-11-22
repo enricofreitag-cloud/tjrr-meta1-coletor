@@ -1,18 +1,18 @@
 {
   "schemaVersion": 1,
   "year": 2026,
-  "collectedAt": "2026-11-21T21:38:37.146Z",
-  "sourceUpdatedAt": "21/11/2026 03:00:40",
+  "collectedAt": "2026-11-22T12:34:43.872Z",
+  "sourceUpdatedAt": "22/11/2026 02:44:19",
   "sourceUrl": "https://estatistica.tjrr.jus.br/painel/meta-1",
   "units": [
     {
       "name": "1ª VARA CÍVEL",
-      "distributed": 2072,
+      "distributed": 2074,
       "entries": 114,
       "exits": 140,
-      "judged": 1433,
-      "fulfillment": 0.7003910068426198,
-      "necessary": 613,
+      "judged": 1442,
+      "fulfillment": 0.7041015625,
+      "necessary": 606,
       "monthly": [
         {
           "period": "2025-12",
@@ -60,18 +60,18 @@
         },
         {
           "period": "2026-11",
-          "fulfillment": 0.7003910068426198
+          "fulfillment": 0.7041015625
         }
       ]
     },
     {
       "name": "2ª VARA CÍVEL",
-      "distributed": 2165,
+      "distributed": 2167,
       "entries": 121,
       "exits": 160,
       "judged": 1814,
-      "fulfillment": 0.8532455315145814,
-      "necessary": 312,
+      "fulfillment": 0.8524436090225563,
+      "necessary": 314,
       "monthly": [
         {
           "period": "2025-12",
@@ -119,18 +119,18 @@
         },
         {
           "period": "2026-11",
-          "fulfillment": 0.8532455315145814
+          "fulfillment": 0.8524436090225563
         }
       ]
     },
     {
       "name": "3ª VARA CÍVEL",
-      "distributed": 2167,
+      "distributed": 2168,
       "entries": 24,
       "exits": 125,
       "judged": 1965,
-      "fulfillment": 0.9511132623426912,
-      "necessary": 101,
+      "fulfillment": 0.9506531204644412,
+      "necessary": 102,
       "monthly": [
         {
           "period": "2025-12",
@@ -178,18 +178,18 @@
         },
         {
           "period": "2026-11",
-          "fulfillment": 0.9511132623426912
+          "fulfillment": 0.9506531204644412
         }
       ]
     },
     {
       "name": "4ª VARA CÍVEL",
-      "distributed": 2032,
+      "distributed": 2034,
       "entries": 69,
       "exits": 141,
       "judged": 1562,
-      "fulfillment": 0.7969387755102041,
-      "necessary": 398,
+      "fulfillment": 0.7961264016309888,
+      "necessary": 400,
       "monthly": [
         {
           "period": "2025-12",
@@ -237,7 +237,7 @@
         },
         {
           "period": "2026-11",
-          "fulfillment": 0.7969387755102041
+          "fulfillment": 0.7961264016309888
         }
       ]
     }
