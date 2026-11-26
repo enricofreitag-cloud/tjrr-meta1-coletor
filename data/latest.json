@@ -1,18 +1,18 @@
 {
   "schemaVersion": 1,
   "year": 2026,
-  "collectedAt": "2026-11-25T14:20:15.556Z",
-  "sourceUpdatedAt": "25/11/2026 05:28:28",
+  "collectedAt": "2026-11-26T00:19:28.364Z",
+  "sourceUpdatedAt": "25/11/2026 17:18:35",
   "sourceUrl": "https://estatistica.tjrr.jus.br/painel/meta-1",
   "units": [
     {
       "name": "1ª VARA CÍVEL",
-      "distributed": 2095,
-      "entries": 113,
+      "distributed": 2096,
+      "entries": 112,
       "exits": 140,
-      "judged": 1469,
-      "fulfillment": 0.710348162475822,
-      "necessary": 599,
+      "judged": 1472,
+      "fulfillment": 0.7117988394584139,
+      "necessary": 596,
       "monthly": [
         {
           "period": "2025-12",
@@ -24,43 +24,43 @@
         },
         {
           "period": "2026-02",
-          "fulfillment": 0.616
+          "fulfillment": 0.6176470588235294
         },
         {
           "period": "2026-03",
-          "fulfillment": 0.6031746031746031
+          "fulfillment": 0.6042402826855123
         },
         {
           "period": "2026-04",
-          "fulfillment": 0.6133879781420765
+          "fulfillment": 0.6142270861833106
         },
         {
           "period": "2026-05",
-          "fulfillment": 0.6140155728587319
+          "fulfillment": 0.6146993318485523
         },
         {
           "period": "2026-06",
-          "fulfillment": 0.5560578661844484
+          "fulfillment": 0.5565610859728507
         },
         {
           "period": "2026-07",
-          "fulfillment": 0.6152141802067946
+          "fulfillment": 0.6156688839615669
         },
         {
           "period": "2026-08",
-          "fulfillment": 0.6713645099295323
+          "fulfillment": 0.6717948717948717
         },
         {
           "period": "2026-09",
-          "fulfillment": 0.6818181818181818
+          "fulfillment": 0.6822107081174439
         },
         {
           "period": "2026-10",
-          "fulfillment": 0.6997416020671835
+          "fulfillment": 0.7001034126163392
         },
         {
           "period": "2026-11",
-          "fulfillment": 0.710348162475822
+          "fulfillment": 0.7117988394584139
         }
       ]
     },
@@ -69,9 +69,9 @@
       "distributed": 2177,
       "entries": 120,
       "exits": 159,
-      "judged": 1852,
-      "fulfillment": 0.8662301216089804,
-      "necessary": 286,
+      "judged": 1851,
+      "fulfillment": 0.8657623947614593,
+      "necessary": 287,
       "monthly": [
         {
           "period": "2025-12",
@@ -103,34 +103,34 @@
         },
         {
           "period": "2026-07",
-          "fulfillment": 0.642754662840746
+          "fulfillment": 0.6432160804020101
         },
         {
           "period": "2026-08",
-          "fulfillment": 0.7361111111111112
+          "fulfillment": 0.7365761212886923
         },
         {
           "period": "2026-09",
-          "fulfillment": 0.753025302530253
+          "fulfillment": 0.7534397358282884
         },
         {
           "period": "2026-10",
-          "fulfillment": 0.7688516510596353
+          "fulfillment": 0.7687376725838264
         },
         {
           "period": "2026-11",
-          "fulfillment": 0.8662301216089804
+          "fulfillment": 0.8657623947614593
         }
       ]
     },
     {
       "name": "3ª VARA CÍVEL",
-      "distributed": 2185,
+      "distributed": 2186,
       "entries": 24,
-      "exits": 129,
+      "exits": 128,
       "judged": 1966,
-      "fulfillment": 0.9451923076923077,
-      "necessary": 114,
+      "fulfillment": 0.9442843419788665,
+      "necessary": 116,
       "monthly": [
         {
           "period": "2025-12",
@@ -166,29 +166,29 @@
         },
         {
           "period": "2026-08",
-          "fulfillment": 0.9023917259211377
+          "fulfillment": 0.9018087855297158
         },
         {
           "period": "2026-09",
-          "fulfillment": 0.909821941412981
+          "fulfillment": 0.9092996555683123
         },
         {
           "period": "2026-10",
-          "fulfillment": 0.9585277345775013
+          "fulfillment": 0.9580310880829016
         },
         {
           "period": "2026-11",
-          "fulfillment": 0.9451923076923077
+          "fulfillment": 0.9442843419788665
         }
       ]
     },
     {
       "name": "4ª VARA CÍVEL",
-      "distributed": 2053,
-      "entries": 69,
+      "distributed": 2055,
+      "entries": 68,
       "exits": 145,
-      "judged": 1577,
-      "fulfillment": 0.7976732422862923,
+      "judged": 1578,
+      "fulfillment": 0.7977755308392316,
       "necessary": 400,
       "monthly": [
         {
@@ -201,43 +201,43 @@
         },
         {
           "period": "2026-02",
-          "fulfillment": 0.4561933534743202
+          "fulfillment": 0.4575757575757576
         },
         {
           "period": "2026-03",
-          "fulfillment": 0.574108818011257
+          "fulfillment": 0.575187969924812
         },
         {
           "period": "2026-04",
-          "fulfillment": 0.7046783625730995
+          "fulfillment": 0.705710102489019
         },
         {
           "period": "2026-05",
-          "fulfillment": 0.8870588235294118
+          "fulfillment": 0.8881036513545347
         },
         {
           "period": "2026-06",
-          "fulfillment": 0.8408007626310772
+          "fulfillment": 0.8416030534351145
         },
         {
           "period": "2026-07",
-          "fulfillment": 0.7835595776772247
+          "fulfillment": 0.7841509433962264
         },
         {
           "period": "2026-08",
-          "fulfillment": 0.7923533289386948
+          "fulfillment": 0.7928759894459103
         },
         {
           "period": "2026-09",
-          "fulfillment": 0.7923169267707083
+          "fulfillment": 0.7927927927927928
         },
         {
           "period": "2026-10",
-          "fulfillment": 0.8029315960912052
+          "fulfillment": 0.8028245518739815
         },
         {
           "period": "2026-11",
-          "fulfillment": 0.7976732422862923
+          "fulfillment": 0.7977755308392316
         }
       ]
     }
